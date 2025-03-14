@@ -1,0 +1,26 @@
+Task: React (TypeScript) Project Using FreeTestAPI
+
+You are tasked with developing a React (TypeScript) application that interacts with the FreeTestAPI Movies API. Your goal is to create a dynamic and user-friendly interface that displays movie data efficiently.
+
+Requirements:
+
+Movie List Page:
+Fetch and display a list of movies from https://freetestapi.com/api/v1/movies.
+Show essential details such as title, year, genre, rating, and poster.
+Search Functionality:
+Implement a search bar to filter movies by title using search query api “https://freetestapi.com/api/v1/movies?search=[query]”
+Display results dynamically as the user types.
+Sorting Feature:
+Allow users to sort movies by title, year, or rating in ascending/descending order using sort api “https://freetestapi.com/api/v1/movies?sort=name&order=desc”
+Movie Details Page:
+When a user clicks on a movie, navigate to a detailed view page.
+Fetch movie details using https://freetestapi.com/api/v1/movies/{id}.
+Display additional information like plot, director, actors, runtime, awards, and box office earnings.
+Technology Stack:
+
+React (TypeScript)
+React Router for navigation
+Axios or Fetch API for API requests
+Deliverables:
+
+A GitHub repository with your project code
